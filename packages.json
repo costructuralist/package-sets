@@ -900,6 +900,16 @@
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
     "version": "v0.2.0"
   },
+  "halogen-svg": {
+    "dependencies": [
+      "prelude",
+      "halogen",
+      "strings",
+      "dom-indexed"
+    ],
+    "repo": "https://github.com/costructuralist/purescript-halogen-svg.git",
+    "version": "costructuralist-18042018"
+  },
   "halogen-vdom": {
     "dependencies": [
       "prelude",
