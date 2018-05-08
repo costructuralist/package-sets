@@ -375,6 +375,11 @@
     "repo": "https://github.com/garyb/purescript-debug.git",
     "version": "v3.0.0"
   },
+  "decimals": {
+    "dependencies": [],
+    "repo": "https://github.com/sharkdp/purescript-decimals.git",
+    "version": "v3.4.0"
+  },
   "distributions": {
     "dependencies": [
       "lists"
