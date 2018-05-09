@@ -913,7 +913,7 @@
       "dom-indexed"
     ],
     "repo": "https://github.com/costructuralist/purescript-halogen-svg.git",
-    "version": "costructuralist-2018-05-01"
+    "version": "costructuralist-2018-05-09"
   },
   "halogen-vdom": {
     "dependencies": [
