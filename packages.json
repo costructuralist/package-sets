@@ -208,16 +208,7 @@
     "repo": "https://github.com/purescript/purescript-exceptions.git",
     "version": "v4.0.0"
   },
-<<<<<<< HEAD
-  "decimals": {
-    "dependencies": [],
-    "repo": "https://github.com/sharkdp/purescript-decimals.git",
-    "version": "v3.4.0"
-  },
-  "distributions": {
-=======
   "exists": {
->>>>>>> upstream/master
     "dependencies": [
       "unsafe-coerce"
     ],
