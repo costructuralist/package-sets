@@ -478,10 +478,11 @@
       "prelude",
       "halogen",
       "strings",
-      "dom-indexed"
+      "web-uievents",
+      "effect"
     ],
-    "repo": "https://github.com/costructuralist/purescript-halogen-svg.git",
-    "version": "costructuralist-2018-05-20"
+    "repo": "https://github.com/kwohlfahrt/purescript-halogen-svg.git",
+    "version": "v0.1.0"
   },
   "halogen-vdom": {
     "dependencies": [
