@@ -471,7 +471,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/costructuralist/purescript-halogen.git",
-    "version": "2018-06-15-2"
+    "version": "2018-06-15-3"
   },
   "halogen-svg": {
     "dependencies": [
