@@ -482,7 +482,7 @@
       "effect"
     ],
     "repo": "https://github.com/costructuralist/purescript-halogen-svg.git",
-    "version": "2018-06-15"
+    "version": "2018-06-15-2"
   },
   "halogen-vdom": {
     "dependencies": [
