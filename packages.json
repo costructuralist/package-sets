@@ -470,8 +470,8 @@
       "unsafe-reference",
       "web-uievents"
     ],
-    "repo": "https://github.com/slamdata/purescript-halogen.git",
-    "version": "v4.0.0"
+    "repo": "https://github.com/costructuralist/purescript-halogen.git",
+    "version": "2018-06-15"
   },
   "halogen-svg": {
     "dependencies": [
