@@ -95,6 +95,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
     "version": "v4.0.1"
   },
+  "argonaut-generic": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "generics-rep",
+      "record"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
+    "version": "v2.0.0"
+  },
   "argonaut-traversals": {
     "dependencies": [
       "argonaut-codecs",
@@ -103,6 +113,18 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "v4.0.1"
+  },
+  "arraybuffer": {
+    "dependencies": [
+      "arraybuffer-types",
+      "effect",
+      "functions",
+      "maybe",
+      "text-encoding",
+      "uint"
+    ],
+    "repo": "https://github.com/jacereda/purescript-arraybuffer.git",
+    "version": "v8.0.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -898,6 +920,20 @@
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
     "version": "v6.0.1"
   },
+  "minibench": {
+    "dependencies": [
+      "console",
+      "effect",
+      "globals",
+      "integers",
+      "math",
+      "partial",
+      "prelude",
+      "refs"
+    ],
+    "repo": "https://github.com/purescript/purescript-minibench.git",
+    "version": "v2.0.0"
+  },
   "mmorph": {
     "dependencies": [
       "functors",
@@ -1373,6 +1409,15 @@
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
     "version": "v5.0.0"
   },
+  "quickcheck-laws": {
+    "dependencies": [
+      "proxy",
+      "enums",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/garyb/purescript-quickcheck-laws",
+    "version": "v4.0.0"
+  },
   "random": {
     "dependencies": [
       "effect",
@@ -1410,10 +1455,14 @@
       "nullable",
       "record",
       "typelevel-prelude",
-      "unsafe-coerce"
+      "unsafe-coerce",
+      "web-events",
+      "web-dom",
+      "exceptions",
+      "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v1.2.0"
+    "version": "v2.0.1"
   },
   "react-dom": {
     "dependencies": [
@@ -1698,6 +1747,18 @@
     "repo": "https://github.com/bodil/purescript-test-unit.git",
     "version": "v14.0.0"
   },
+  "text-encoding": {
+    "dependencies": [
+      "arraybuffer-types",
+      "either",
+      "exceptions",
+      "functions",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/AlexaDeWit/purescript-text-encoding.git",
+    "version": "v0.0.8"
+  },
   "these": {
     "dependencies": [
       "gen",
@@ -1754,6 +1815,14 @@
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v3.0.0"
   },
+  "uint": {
+    "dependencies": [
+      "math",
+      "maybe"
+    ],
+    "repo": "https://github.com/zaquest/purescript-uint.git",
+    "version": "v4.0.1"
+  },
   "unfoldable": {
     "dependencies": [
       "foldable-traversable",
@@ -1783,7 +1852,7 @@
       "tuples"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.1.0"
+    "version": "v1.3.0"
   },
   "unsafe-coerce": {
     "dependencies": [],
@@ -1903,6 +1972,28 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v2.0.0"
+  },
+  "webaudio": {
+    "dependencies": [
+      "aff",
+      "affjax",
+      "arraybuffer",
+      "arraybuffer-types",
+      "arrays",
+      "assert",
+      "console",
+      "foldable-traversable",
+      "js-timers",
+      "lists",
+      "math",
+      "maybe",
+      "psci-support",
+      "refs",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/adkelley/purescript-webaudio.git",
+    "version": "v0.1.2"
   },
   "yargs": {
     "dependencies": [
