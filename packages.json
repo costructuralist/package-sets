@@ -718,7 +718,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/costructuralist/purescript-halogen.git",
-    "version": "2018-08-17"
+    "version": "2018-08-27"
   },
   "halogen-css": {
     "dependencies": [
@@ -1411,8 +1411,8 @@
   },
   "quickcheck-laws": {
     "dependencies": [
-      "proxy",
       "enums",
+      "proxy",
       "quickcheck"
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws",
@@ -1451,14 +1451,14 @@
   "react-basic": {
     "dependencies": [
       "effect",
+      "exceptions",
       "functions",
       "nullable",
       "record",
       "typelevel-prelude",
       "unsafe-coerce",
-      "web-events",
       "web-dom",
-      "exceptions",
+      "web-events",
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
