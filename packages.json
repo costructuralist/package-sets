@@ -718,7 +718,7 @@
       "web-uievents"
     ],
     "repo": "https://github.com/costructuralist/purescript-halogen.git",
-    "version": "2018-08-27"
+    "version": "2018-08-27-2"
   },
   "halogen-css": {
     "dependencies": [
@@ -760,7 +760,7 @@
       "web-html"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
-    "version": "v4.0.0"
+    "version": "v3.0.0"
   },
   "http-methods": {
     "dependencies": [
